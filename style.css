@@ -1,33 +1,88 @@
-/* taustan väri */
+main {
+    background-color:#fab6b6af;
+    font-family:  "Delius Swash Caps", cursive;
+    margin: 15px; 
+ }
+ nav {
+  margin-bottom: 1%;
+ }
 
-.navbar-custom {
-background-color: rgba(137,17,76,0.9);
+body {
+    background-color: #ffffff; 
+ }
+
+.navbar-brand {
+    font-family: "Delius Swash Caps", cursive;
 }
 
-/* brandin ja tekstin väri */
+ .navbar-nav .nav-link {
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-custom {
+background-color: #ffffff;
+}
 
 .navbar-custom .navbar-brand,
 
 .navbar-custom .navbar-text{
 
-color: rgba(241,135,187, 0.8);
+color: rgb(0, 0, 0);
 
 }
-
-/* linkin väri */
 
 .navbar-custom .navbar-nav .nav-link {
 
-color: rgba(241,135,187, 0.8);
+color: rgb(0, 0, 0);
 
 }
-
-/* aktiivisen & hover-linkin väri */
 
 .navbar-custom .nav-item.active .nav-link,
 
 .navbar-custom .nav-item:hover .nav-link {
 
-color: #ffffff;
+color: #636161;
+}
 
+.carousel-item{
+  max-height: 600px;
+}
+
+.img-round {
+  width: 100%;       
+  max-width: 320px;      
+  aspect-ratio: 1 / 1;  
+  object-fit: cover;    
+  border-radius: 50%; 
+  display: block;
+  margin-left: auto;  
+  margin-right: auto;
+  margin-top: 2rem;
+} 
+
+.accordion-img {
+  width: 100%;
+  max-height: 400px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+}
+
+#accordion {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.table-primary {
+  background-color: aqua;
+} 
+.table-danger {
+  background-color: rgb(216, 47, 47);
+}
+.table-success {
+  background-color: darkolivegreen;
+}
+.table-warning {
+  background-color: darkgoldenrod;
 }

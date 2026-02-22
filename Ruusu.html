@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Quintessential&display=swap"
         rel="stylesheet">
-    <title>Etusivu</title>
+
+    <title>Ruusu</title>
 </head>
 
 <body>
@@ -26,9 +27,9 @@
 
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Etusivu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Etusivu</a></li>
                     <li class="nav-item"><a class="nav-link" href="Tulppaani.html">Tulppaani</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Ruusu.html">Ruusu</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="Ruusu.html">Ruusu</a></li>
                     <li class="nav-item"><a class="nav-link" href="Krysanteemi.html">Krysanteemi</a></li>
                     <li class="nav-item"><a class="nav-link" href="Neilikka.html">Neilikka</a></li>
                     <li class="nav-item"><a class="nav-link" href="Kuvalähteet.html">Lähteet</a></li>
@@ -36,22 +37,35 @@
             </div>
         </div>
     </nav>
+
     <main>
-        <div class="container p-5 my-5 border">
-            <h1>Kauniita kuvia kukista</h1>
-            <p>Jokaisella sivulla on kuvia erilaisista kukista.</p>
-            <button type="button" class="btn btn-primary" data-bs-toggle="popover"
-                data-bs-content="Kuvat eivät ole itse otettuja">
-                Lisätietoa
-            </button>
+        <div class="container mt-3 pt-4 pb-5">
+
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <h1>Ruusuruudukko</h1>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <img src="Ruusu1.jpg" alt="Ruusu 1" class="img-fluid img-round">
+                </div>
+                <div class="col-md-6">
+                    <img src="Ruusu2.jpg" alt="Ruusu 2" class="img-fluid img-round">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Ruusu3.jpg" alt="Ruusu 3" class="img-fluid img-round">
+                </div>
+                <div class="col-md-6">
+                    <img src="Ruusu4.jpg" alt="Ruusu 4" class="img-fluid img-round">
+                </div>
+            </div>
+
         </div>
-        <script>
-            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-            var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-                return new bootstrap.Popover(popoverTriggerEl)
-            })
-        </script>
     </main>
+
 </body>
 
 </html>
