@@ -1,1 +1,17 @@
 
+{
+  "toteutuksenNimi": "Digitekniikat",
+  "osallistujienLkm": 5,
+  "osallistujat": [
+    "Ella A.",
+    "Marja B.",
+    "Eetu C.",
+    "Joel D.",
+    "Julia E."
+  ],
+  "alkamispaiva": "2025-01-13",
+  "loppumispaiva": "2025-03-14",
+  "kestoViikkoina": 8,
+  "kuva": "https://www.haaga-helia.fi/themes/custom/hh/logo.png",
+  "kuvaAlt": "Haaga-Helian logo"
+}
