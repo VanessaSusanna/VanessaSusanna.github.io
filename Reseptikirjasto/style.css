@@ -1,0 +1,15 @@
+main {
+    background-color:#F1F5F4; 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 2%;
+ }
+
+ .header {
+    background-color: #4b0b1a;
+}
+
+.navbar-custom {
+    background-color: #050505d7;
+}
+
